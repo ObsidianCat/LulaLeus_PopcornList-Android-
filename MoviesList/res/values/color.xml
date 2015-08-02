@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray_cool">#eceff4</color>
+    <color name="red_fire">#ec3611</color>
+    <color name="blue_baby">#77b3d5</color>
+    <color name="blue_dark">#608fab</color>
+    <color name="yelllow_popcorn_bright">#fad000</color>
+        <color name="yelllow_popcorn_very_bright">#f3d853</color>
+
+    <color name="yelllow_popcorn_dark">#e1bb00</color>
+    <color name="white">#ffffff</color>
+    <color name="blue_navy">#0e2038</color>
+    <color name="black">#000000</color>
+    <color name="blue_gray">#b6d0de</color>
+    <color name="orange_bright">#f8bf7c</color>
+   <color name="orange_dark">#f2867a</color>
+
+      <color name="orange_pink">#f2867a</color>
+   
+   
+   
+   
+     
+     
+     
+    
+    
+        
+</resources>

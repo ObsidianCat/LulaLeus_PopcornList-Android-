@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lulius.movieslist.SearchListActivity"
+    android:background="@color/gray_cool">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <EditText
+            android:id="@+id/editText1Search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="type something">
+		 <requestFocus android:layout_height="wrap_content" />
+        </EditText>
+
+        <Button
+            android:id="@+id/button2go"
+            		android:background="@drawable/button_shape"
+            		android:textColor="#0e2038"
+		android:textSize="18sp"
+		android:layout_marginBottom="5dp"
+		android:layout_width="60dp"
+		android:layout_height="40dp"
+		android:text="@string/go" />
+        
+    </LinearLayout>
+
+
+		    <View
+       android:id="@+id/viewLine3"
+       android:layout_width="match_parent"
+       android:layout_height="2dp"
+       android:background="@color/blue_dark" />
+       	<TextView
+            android:id="@+id/textViewSearchTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/initial_search_title"
+            android:textColor="@color/blue_dark"
+            android:textStyle="bold"
+            android:textSize="16sp"
+                        android:layout_marginTop="10dp"
+            
+            android:layout_marginBottom="10dp" />
+            
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+             />
+
+    <View
+       android:id="@+id/viewLine4"
+       android:layout_width="match_parent"
+       android:layout_height="2dp"
+       android:background="@color/blue_dark" />
+        <Button
+            android:id="@+id/buttonSearchCancel"
+            android:layout_marginTop="5dp"   
+            android:textColor="#0e2038"
+			android:textSize="18sp"
+			android:layout_width="120dp"
+			android:layout_height="40dp"
+			android:background="@drawable/button_shape"
+            android:text="@string/cancel" />
+    
+</LinearLayout>
